@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    animation: introAnimation 4s ease-in-out forwards;
+}
+
+@keyframes introAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.login-panel {
+    opacity: 0;
+}
+
+.login-fade-in {
+    animation: loginPanelAnimation 2s ease-in-out forwards;
+}
+
+@keyframes loginPanelAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
