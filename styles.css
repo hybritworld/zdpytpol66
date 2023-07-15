@@ -1,43 +1,43 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Ustawienie czcionki dla całej strony */
 }
 
 .intro {
-    animation: introAnimation 4s ease-in-out forwards;
+    animation: introAnimation 4s ease-in-out forwards; /* Ustawienie animacji dla elementu o klasie 'intro' */
 }
 
 @keyframes introAnimation {
     0% {
-        opacity: 0;
+        opacity: 0; /* Początkowy stan animacji - element jest niewidoczny */
     }
 
     50% {
-        opacity: 1;
+        opacity: 1; /* Stan połowy animacji - element staje się widoczny */
     }
 
     100% {
-        opacity: 0;
+        opacity: 0; /* Końcowy stan animacji - element znów staje się niewidoczny */
     }
 }
 
 .login-panel {
-    opacity: 0;
+    opacity: 0; /* Początkowy stan dla elementu o klasie 'login-panel' - jest niewidoczny */
 }
 
 .login-fade-in {
-    animation: loginPanelAnimation 2s ease-in-out forwards;
+    animation: loginPanelAnimation 2s ease-in-out forwards; /* Ustawienie animacji dla elementu o klasie 'login-fade-in' */
 }
 
 @keyframes loginPanelAnimation {
     0% {
-        opacity: 0;
+        opacity: 0; /* Początkowy stan animacji - element jest niewidoczny */
     }
 
     50% {
-        opacity: 0;
+        opacity: 0; /* Stan połowy animacji - element pozostaje niewidoczny */
     }
 
     100% {
-        opacity: 1;
+        opacity: 1; /* Końcowy stan animacji - element staje się widoczny */
     }
 }
